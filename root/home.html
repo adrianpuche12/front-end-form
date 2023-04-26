@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Form</title>
+</head>
+
+<body class="angled-gradient">
+    <section>
+        <p class="cont-parr-nav">20% de descuento en todos los productos!</p>
+        <nav>
+            <div class="cont-logo">
+                <!-- <img src="./img/Rectangle.png" alt="">-->
+                <h1 id="titulo-principal">Nombre Tienda</h1>
+            </div>
+            <div class="barra-nav">
+                <ul>
+                    <li>Contacto</li>
+                    <li>Registrarme</li>
+                    <li>Ingresar</li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <main>
+        <section>
+            <form action="" method="post">
+                <div class="cont-principal horizontal-gradient ">
+                    <div class="cont-title">
+                        <h2 class="title">Añadí tu super!</h2>
+                        <p class="cont-parrafo">Agregá tu personaje favorito completando las opciones.</p>
+                    </div>
+                    <section class="section3">
+                        <section class="section1">
+                            <label class="sub-titles" for="">*Nombre</label>
+                            <input placeholder="Escribe aqui tu Nombre" class="cont-input" type="text" name="" id="">
+
+                            <label class="sub-titles" for="">Fecha</label>
+                            <input class="cont-input" placeholder="dd/mm/aaaa" type="date" name="" id="">
+                            <label class="sub-titles" for="">Descripcion</label>
+                            <textarea class="input-textarea" placeholder="Descripcion" name="" id="" cols="30"
+                                rows="10"></textarea>
+                        </section>
+
+                        <section class="section2">
+                            <label class="sub-titles" for="">*Especie</label>
+                            <select class="cont-input" name="Especie" id="Especie">
+                                <option value="">Mutante</option>
+                                <option value="">No mutante</option>
+                                <option value="">semi-mutante</option>
+                            </select>
+
+                            <label class="sub-titles" for="">Agrega tu foto</label>
+
+                            <input class="input-file" type="file">
+
+                            <label class="sub-titles" for="">Poderes</label>
+
+                            <label class="input-color" for=""> <input class="input-style" type="checkbox" name=""
+                                    id="">Volar</label>
+
+                            <label class="input-color" for=""> <input class="input-style" type="checkbox" name=""
+                                    id="">SuperInteligencia</label>
+
+                            <label class="input-color" for=""> <input class="input-style" type="checkbox" name=""
+                                    id="">Vista derayo láser</label>
+
+                            <label class="input-color" for=""> <input class="input-style" type="checkbox" name=""
+                                    id="">Billetera gorda</label>
+                            <hr>
+                            <label class="sub-titles" for="">Tipo de poderes</label>
+
+                            <label class="input-color" for=""><input class="intut-style-radio" type="radio"
+                                    name="heroes" id="">Héroe / Heroina</label>
+
+                            <label class="input-color" for=""><input class="intut-style-radio" type="radio"
+                                    name="heroes" id="">Villano / Villana</label>
+                        </section>
+                    </section>
+                    <button class="button" type="submit">Añadir</button>
+                </div>
+            </form>
+
+    </main>
+
+    <footer>
+        <div class="cont-footer">
+            <p class="parr-footer">Todos los derechos reservados a FRONT END 1</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
